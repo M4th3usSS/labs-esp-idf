@@ -1,0 +1,79 @@
+﻿------------------------------------------------------------------------------------------
+Caro aluno. 
+
+Hardware Utilizado no Curso: 
+
+-> Notebook com Sistema Operacional Windows 7, 8 ou 10 (32 ou 64 bits); 
+-> Carregado do Notebook;
+-> Kit ESP32 
+-> Cabo USB para o Kit ESP32
+-> 4 WireJumpers (Femea-Femea e Macho-Femea);
+
+
+------------------------------------------------------------------------------------------
+Programas a serem instalados no PC: 
+------------------------------------------------------------------------------------------
+
+-> PYTHON (Instalar as duas versões)
+    Versão 2.7
+        https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi
+
+    Versão 3.7
+        https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe
+        
+------------------------------------------------------------------------------------------
+        
+-> SDK_IDF para ESP32 
+
+    Pagina de Instalação: 
+        https://docs.espressif.com/projects/esp-idf/en/stable/get-started/windows-setup.html
+    
+    Download do Toolchain: 
+        https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20181001.zip 
+
+    Download do SDK_IDF (versão estável 3.2V)
+        cd ~/esp
+        git clone -b v3.2 --recursive https://github.com/espressif/esp-idf.git
+      
+
+------------------------------------------------------------------------------------------
+
+-> Mosquitto (Broker MQTT)
+
+    Para Windows 64 bits:
+        https://mosquitto.org/files/binary/win64/mosquitto-1.6.2-install-windows-x64.exe
+    
+    Para Windows 32 bits: 
+        https://mosquitto.org/files/binary/win32/mosquitto-1.6.2-install-windows-x86.exe
+
+------------------------------------------------------------------------------------------   
+     
+-> Terminal MQTT
+
+    Para Windows 64 bits:
+        http://www.jensd.de/apps/mqttfx/1.7.0/mqttfx-1.7.0-windows-x64.exe
+    
+    Para Windows 32 bits: 
+        http://www.jensd.de/apps/mqttfx/1.7.0/mqttfx-1.7.0-windows.exe
+        
+------------------------------------------------------------------------------------------
+
+-> XAMPP (Apache + PHP + MySQL + PHPMyAdmin)
+
+    Para Windows 64 bits: 
+        https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.40/xampp-windows-x64-5.6.40-1-VC11-installer.exe/download
+    
+    Para Windows 32 bits: 
+        https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.40/xampp-win32-5.6.40-0-VC11-installer.exe/download
+------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

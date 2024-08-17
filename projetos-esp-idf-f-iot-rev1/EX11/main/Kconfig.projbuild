@@ -1,0 +1,20 @@
+menu "WiFi Configuration"
+
+config ESP_WIFI_SSID
+    string "WiFi SSID"
+    default "FSimplicio"
+    help
+	SSID (network name) for the example to connect to.
+
+config ESP_WIFI_PASSWORD
+    string "WiFi Password"
+    default "fsimpliciokzz5"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+
+config MAX_STA_CONN
+    int "Max STA conn"
+    default 4
+    help
+	Max number of the STA connects to AP.	
+endmenu
